@@ -1,7 +1,5 @@
 import { getRepository, getCustomRepository } from 'typeorm';
 
-// import AppError from '../errors/AppError';
-
 import Transaction from '../models/Transaction';
 import TransactionsRepository from '../repositories/TransactionsRepository';
 import Category from '../models/Category';
